@@ -1,0 +1,69 @@
+# Customer Counter Pro - Configuration File
+# Edit these settings to customize the application
+
+camera:
+  source: 0  # Camera index (0, 1, 2) or video file path or RTSP URL
+  resolution: [1280, 720]  # [width, height]
+  fps: 30  # Frames per second
+
+detection:
+  model: models/yolov8n.pt  # YOLO model path
+  confidence_threshold: 0.5  # Minimum confidence (0.0 to 1.0)
+
+counting:
+  line_position: 0.5  # Position of counting line (0.0 to 1.0)
+  direction: vertical  # 'vertical' for horizontal line, 'horizontal' for vertical line
+  tracking_enabled: true  # Enable object tracking for accurate counting
+
+display:
+  show_boxes: true  # Show detection bounding boxes
+  show_ids: true  # Show track IDs
+  show_line: true  # Show counting line
+  box_color: [0, 255, 0]  # Detection box color in BGR (Green)
+  line_color: [0, 0, 255]  # Counting line color in BGR (Red)
+  text_color: [255, 255, 255]  # Text color in BGR (White)
+
+data:
+  save_to_database: true  # Save counting data to database
+  database_path: data/counter_data.db  # Database file path
+  export_interval: 3600  # Auto-export interval in seconds (3600 = 1 hour)
+
+alerts:
+  max_occupancy: 50  # Maximum occupancy limit
+  alert_sound: false  # Play sound when limit exceeded
+  alert_enabled: false  # Enable occupancy alerts
+
+app:
+  window_title: Customer Counter Pro  # Application window title
+  company_name: Your Company  # Your company name
+  version: 1.0.0  # Application version
+
+# Performance optimizations for speed
+performance:
+  frame_skip: 1  # Process every Nth frame (1=all, 2=half, 3=third)
+  detection_resolution: [640, 480]  # Resolution for detection (lower=faster)
+  display_resolution: [1280, 720]  # Display resolution (can be higher)
+  use_roi: false  # Region of interest only (requires roi_coords)
+  roi_coords: [0, 0, 1280, 720]  # [x1, y1, x2, y2] for ROI
+
+# Smart analytics (all local, no cloud)
+analytics:
+  enabled: true  # Enable smart analytics
+  historical_weeks: 4  # How many weeks to use for predictions
+  anomaly_threshold: 2.0  # Standard deviations for anomaly detection
+  auto_insights: true  # Show insights automatically
+  min_data_points: 10  # Minimum data points for predictions
+
+# Privacy settings
+privacy:
+  no_video_save: true  # Never save video frames to disk
+  offline_only: true  # 100% offline operation (no network calls)
+  anonymize_logs: false  # Remove identifying info from logs
+
+# Chart generation
+charts:
+  default_format: pdf  # pdf, png, or html
+  include_heatmap: true  # Include traffic heatmap
+  include_predictions: true  # Include prediction charts
+  color_scheme: professional  # professional, colorful, or minimal
+

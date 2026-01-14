@@ -1,0 +1,83 @@
+# DeepVision Counter - Git Ignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Database files (user data)
+*.db
+*.sqlite
+*.sqlite3
+
+# User settings (optional - remove this line if you want to track settings)
+deepvision_settings.json
+line_config.json
+
+# Model files (large, auto-downloaded)
+*.pt
+models/
+
+# Recordings
+recordings/
+*.mp4
+*.avi
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Build artifacts
+*.dmg
+*.app/
+*.exe
+
+# Keep these folders but ignore contents
+!docs/
+!build_mac/
+!build_windows/

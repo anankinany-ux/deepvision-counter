@@ -1,0 +1,21 @@
+# Customer Counter Pro - Required Python Packages
+
+# Core dependencies
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+Pillow>=10.0.0
+PyYAML>=6.0
+
+# Analytics and charts
+matplotlib>=3.7.0
+numpy>=1.24.0
+
+# Object tracking
+lap>=0.5.0
+
+# Optional for better performance
+# torch>=2.0.0  (installed with ultralytics)
+
+# For packaging (development only)
+# pyinstaller>=5.13.0
+
