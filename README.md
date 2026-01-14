@@ -125,7 +125,7 @@ python3 deepvision_counter.py
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/deepvision-counter.git
+git clone https://github.com/anankinany-ux/deepvision-counter.git
 cd deepvision-counter
 
 # 2. Create virtual environment (recommended)
@@ -392,8 +392,8 @@ DeepVision Counter is built with amazing open-source technologies:
 ## 📞 Support
 
 - 📖 **Documentation**: Check the `docs/` folder for detailed guides
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/YOUR_USERNAME/deepvision-counter/issues)
-- 💬 **Discussions**: [Start a discussion](https://github.com/YOUR_USERNAME/deepvision-counter/discussions)
+- 🐛 **Bug Reports**: [Open an issue](https://github.com/anankinany-ux/deepvision-counter/issues)
+- 💬 **Discussions**: [Start a discussion](https://github.com/anankinany-ux/deepvision-counter/discussions)
 - ⭐ **Star Us**: If you find this useful, please star the repo!
 
 ---
@@ -402,6 +402,6 @@ DeepVision Counter is built with amazing open-source technologies:
 
 **Made with ❤️ for businesses worldwide**
 
-[⭐ Star on GitHub](https://github.com/YOUR_USERNAME/deepvision-counter) • [📖 Documentation](docs/) • [🐛 Report Bug](https://github.com/YOUR_USERNAME/deepvision-counter/issues)
+[⭐ Star on GitHub](https://github.com/anankinany-ux/deepvision-counter) • [📖 Documentation](docs/) • [🐛 Report Bug](https://github.com/anankinany-ux/deepvision-counter/issues)
 
 </div>
